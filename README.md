@@ -1,1 +1,2 @@
 # Inventory_Management_system
+This Inventory Management System is built using React.js, Node.js, and MySQL. The main purpose of the project is to help manage product data efficiently. It allows the admin to add, view, edit, and delete products. The system includes pages like Home, Admin Login, Admin Registration, User Login, User Registration, Add Product, Product List, and Contact Us. Both users and admins can register and log in securely. The project ensures easy inventory control through a clean and user-friendly interface.
