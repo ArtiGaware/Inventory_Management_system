@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #efadd4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(248, 187, 235);
+  background-color: #3a8be8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #fcabde;
+}
+
+/* ✅ Gradient background for modern pastel look */
+.custom-navbar {
+  background: linear-gradient(90deg, #e4b5cd, #89daf8) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand and nav link colors */
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: rgb(233, 146, 208) !important;
+  font-weight: 500;
+}
+
+/* Hover effects for better interactivity */
+.custom-navbar .nav-link:hover,
+.custom-navbar .navbar-brand:hover {
+  color: #ffc107 !important; /* Yellow on hover */
+  text-shadow: 0 0 5px rgba(255, 193, 7, 0.4);
+}
+/* Button Styles */
+.navbar .btn-custom {
+  background: linear-gradient(90deg, #0dcaf0, #6610f2);
+  border: none;
+  color: white !important;  /* Ensuring the text is white */
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navbar .btn-custom:hover {
+  background: linear-gradient(90deg, #6610f2, #0dcaf0);
+  transform: scale(1.05);
+}
+
+/* Form styles */
+.form-control-custom {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control-custom:focus {
+  border-color: #89daf8;
+  box-shadow: 0 0 5px rgba(137, 218, 248, 0.5);
+}
+
+/* Footer Styles */
+.footer-custom {
+  background: linear-gradient(90deg, #3a8be8, #6610f2); /* Darker gradient to match navbar */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-custom a {
+  color: rgb(233, 146, 208); /* Same as navbar link color */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-custom a:hover {
+  color: #ffc107; /* Yellow on hover for consistency with navbar */
+  text-decoration: underline;
+}
+
+
+/* Additional styling for form error messages */
+.text-danger {
+  color: #ff6f61 !important;
+}
